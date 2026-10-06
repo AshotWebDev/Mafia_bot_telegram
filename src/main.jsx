@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import "./style.css";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const API = "https://mafia-bot-telegram-beck.vercel.app";
 
 const tg = window.Telegram?.WebApp;
 tg?.ready();
